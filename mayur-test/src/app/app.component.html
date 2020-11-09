@@ -1,0 +1,13 @@
+<app-header></app-header>
+<h1>{{title}}</h1><hr>
+<form class="form-control">
+    <input type="file" class="form-control" (change)="save($event)" multiple="multiple">
+    <br>
+    <br>
+    
+    
+    <span [innerHTML] = "result" multiple="multile"></span>
+    
+
+</form>
+<hr>
